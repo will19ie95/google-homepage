@@ -66,15 +66,13 @@ input[name=searchField] {
 
 .search {
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 #SearchBar {
 	padding-top: 6px;
 	padding-left: 16px;
-}
-
-#SearchField {
+	padding-right: 9px;
 	width: 500px;
 }
 
@@ -84,6 +82,7 @@ input[name=searchField] {
 
 #A-voice {
 	width: 24px;
+	line-height: 44px;
 	padding: 0px 8px;
 }
 
