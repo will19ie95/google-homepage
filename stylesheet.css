@@ -1,8 +1,52 @@
-#logo_container {
+#container {
 	margin-top: 89px;
 	text-align: center;
 }
 
 #google_logo {
-	width: 25%;
+	width: 20%;
+}
+
+.navbar {
+	text-align: right;
+	font-size: 13px;
+	height: 50px;
+	font-family: Arial, sans-serif;
+}
+
+.navbar li {
+	display: inline-block;
+	width: 50px;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.navbar li a {
+	color: #000;
+	text-decoration: none;
+}
+
+.navbar li a:hover{
+	text-decoration: underline;
+}
+
+.navbar li a img {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	opacity: .55;
+}
+
+.navbar li a img:hover{
+	opacity: .85;
+}
+
+#nav-user-icon {
+	opacity: 1 !important;
+}
+
+#searchField {
+	width: 500px;
+	height: 35px;
 }

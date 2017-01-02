@@ -5,10 +5,24 @@
 	<title>Google</title>
 </head>
 <body>
-	<div id="logo_container">
-		<a href="http://www.google.com/">
-			<img id="google_logo" src="https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_284x96dp.png">
-		</a>
+	<div class="navbar">
+		<ul>
+			<li><a href="#">Gmail</a></li>
+			<li><a href="#">Images</a></li>
+			<li><a href="#"><img src="images/google-apps-icon.png" alt="Google Apps"></a></li>
+			<li><a href="#"><img src="images/google-bell-icon.png" alt="Google Alert"></a></li>
+			<li><a href="#"><img id="nav-user-icon" src="images/google-user-icon.jpg" alt="Google User"></a></li>
+		</ul>
+	</div>
+
+	<div id="container">
+		<img id="google_logo" src="images/google-logo.png" alt="Google Logo">
+		<form>
+			<input id="searchField" type="text" name="searchField">
+			<br><br>
+			<input type="submit" name="submit" value="Google Search">
+			<input type="submit" name="submit" value="I'm Feelin Lucky">
+		</form>
 	</div>
 </body>
 </html>
