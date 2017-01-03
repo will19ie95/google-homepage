@@ -1,3 +1,8 @@
+* {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
 #main {
 	margin-top: 89px;
 	text-align: center;
@@ -67,6 +72,20 @@ input[type=submit]{
 	border: 1px solid #F2F2F2;
 	background-color: #F2F2F2;
 	color: #757575;
+	cursor: default;
+	font-weight: bold;
+	margin:	11px 4px;
+	min-width: 54px;
+	padding: 0px 16px;
+	text-align: center;
+}
+
+input[type=submit]:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+	color: #222;
+	background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1ff);
 }
 
 #SearchBar-container {
