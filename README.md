@@ -1,5 +1,6 @@
 #Yong's Fake Google page
 
 My attempt on recreating the google homepage using HTML and CSS.  
-Feel free to take poke around at my code and shoot me an email with any questions or comments :).  
+Feel free to poke around and play with the code.
+If you have any questions or comments just shoot me an email :).  
 Happy Coding.  
