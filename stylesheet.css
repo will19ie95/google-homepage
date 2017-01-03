@@ -161,7 +161,13 @@ input[type=submit]:hover {
 	margin-right: 30px;
 }
 
-#Footer span span {
+#Footer span a {
 	padding-left: 27px;
 	margin: 0 !important;
+	text-decoration: none;
+	color: #222;
+}
+
+#Footer span a:hover {
+	text-decoration: underline;
 }
