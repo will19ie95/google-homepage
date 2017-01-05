@@ -141,9 +141,10 @@ input[type=submit]:hover {
 	background: #f2f2f2;
 	height: 40px;
 	position: absolute;
-	width: 102%;
+	width: 100%;
 	border-top: 1px solid #e4e4e4;
-	margin-left: -27px;
+	/*margin-left: -27px;*/
+	right: 0px;	
 	bottom: 0px;
 }
 
@@ -151,7 +152,8 @@ input[type=submit]:hover {
 	text-align: left;
 	display: inline-block;
 	float: left;
-	margin-left: 30px;
+	margin-left: 3px;
+	/*margin-left: 30px;*/
 } 
 
 #footer-right {
